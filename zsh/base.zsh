@@ -108,6 +108,8 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="code ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 
+export RUBYOPT='-W0' LOG_LEVEL=error
+
 include "$DOTFILES/zsh/pure.zsh"
 
 if [[ $(uname) = Darwin ]]; then
