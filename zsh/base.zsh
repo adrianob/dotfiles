@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 alias zshconfig="code ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
+alias pryc="bundle exec pry -r ./config/environment"
 
 export RUBYOPT='-W0' LOG_LEVEL=error
 
